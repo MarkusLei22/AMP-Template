@@ -63,3 +63,4 @@ typings/
 # AMP Factory Template
 package-lock.json
 *.DS_Store
+*.sass-cache
