@@ -3,6 +3,15 @@
 This is the factory HTML template for
 [AMP (API Markup Processor)](https://github.com/voidblaster/AMP).
 
+## Installation
+
+1. Install dependencies
+2. compile scss
+
+```
+npm install
+compass compile
+```
 
 ## License
 
