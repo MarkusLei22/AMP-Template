@@ -20,12 +20,12 @@
 }
 /* line 11, ../sass/machine-section.scss */
 .machine-section .seperator {
-  /*border-top: 1px solid #aaa; /* 444 */
+  border-top: 1px solid #aaa;
   margin-top: 2em;
 }
 /* line 16, ../sass/machine-section.scss */
 .machine-section .variable-table tr {
-  border-color: #444;
+  border-color: #aaa;
 }
 /* line 20, ../sass/machine-section.scss */
 .machine-section .block-description {
@@ -51,7 +51,7 @@
   display: flex;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #aaa;
 }
 /* line 43, ../sass/machine-section.scss */
 .ms-head .closeMsButton {
@@ -74,7 +74,7 @@
   display: flex;
   margin-bottom: 1.5em;
   padding: 1em 0;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #aaa;
   font-family: monospace;
   font-size: 1.2em;
 }
@@ -105,11 +105,6 @@
 /* line 92, ../sass/machine-section.scss */
 .hide {
   display: none;
-}
-
-/* heading for response and request in machine-section */
-.heading {
-    border-bottom: 1px solid #5c5c5c;
 }
 
 /* line 96, ../sass/machine-section.scss */
@@ -179,18 +174,17 @@
 .json {
   font-family: monospace;
   font-size: 1.1em;
-  padding: 0em .5em;
-  /*background-color: #22252b;*/
+  padding: 0 .5em;
 }
-/* line 168, ../sass/machine-section.scss */
+/* line 167, ../sass/machine-section.scss */
 .json .text {
   color: #b1bdbd;
 }
-/* line 172, ../sass/machine-section.scss */
+/* line 171, ../sass/machine-section.scss */
 .json .key {
   color: #947CB0;
 }
-/* line 176, ../sass/machine-section.scss */
+/* line 175, ../sass/machine-section.scss */
 .json .nr {
   color: #F7CA18;
 }
@@ -4003,99 +3997,87 @@ h3 {
 /* line 30, ../sass/style.scss */
 h4 {
   font-size: 1em;
-  /*text-transform: uppercase;*/
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 /* line 35, ../sass/style.scss */
 h5 {
   font-size: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 #human-section {
-  padding: 0 1.5em;
   height: 100vh;
   overflow-y: scroll;
 }
-/* line 44, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 #human-section .block-description {
   color: #666;
 }
 @media screen and (max-width: 74.9375em) {
-  /* line 40, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   #human-section {
     padding-right: 1.5em;
   }
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 40, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   #human-section {
     padding-left: 1.5em;
   }
 }
 
-/* line 57, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .block-description {
   margin-top: .5em;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .group .content {
   padding-left: 1em;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .ressource {
   margin-bottom: 5em;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .attributes .variable-table .name {
   vertical-align: top;
 }
-/* line 77, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .attributes .variable-table .description {
   display: block;
 }
 
-/* line 83, ../sass/style.scss */
-.variable-table {
-  /*border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;*/
-}
-/* line 87, ../sass/style.scss */
-.variable-table tr:last-child {
-  /*border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;*/
-}
-/* line 92, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .variable-table tbody {
   border: none;
 }
-/* line 96, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .variable-table tr {
   padding-top: .5em;
   border-color: #eee;
 }
-/* line 101, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .variable-table .name {
   font-family: monospace;
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 107, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .variable-table .datatype {
   font-family: monospace;
   font-size: 1.1em;
   vertical-align: top;
 }
-/* line 113, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .variable-table .default-value {
   font-family: monospace;
 }
-/* line 117, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .variable-table .required,
 .variable-table .optional {
   border: 1px solid white;
@@ -4103,55 +4085,55 @@ h5 {
   padding: .3em .5em;
   font-family: monospace;
 }
-/* line 125, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .variable-table .required {
   border-color: #D91E18;
   color: #D91E18;
 }
-/* line 130, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .variable-table .optional {
   border-color: #95A5A6;
   color: #95A5A6;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .action {
   height: auto;
   border: 1px solid #fff;
   background-color: #f2f2f2;
   display: flex;
 }
-/* line 145, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .action:hover {
   background-color: #eee;
   cursor: pointer;
 }
-/* line 150, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .action .http-method-flag {
   display: block;
   width: 8px;
 }
-/* line 154, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .action .http-method-flag.get {
   background-color: #2baf3b;
 }
-/* line 158, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .action .http-method-flag.post {
   background-color: #1E8BC3;
 }
-/* line 162, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .action .http-method-flag.put {
   background-color: #947CB0;
 }
-/* line 166, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .action .http-method-flag.patch {
   background-color: #E87E04;
 }
-/* line 170, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .action .http-method-flag.delete {
   background-color: #D91E18;
 }
-/* line 175, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .action .action-name {
   display: block;
   margin: .3em 0 .3em 1em;
@@ -4159,7 +4141,7 @@ h5 {
   font-size: 1.4em;
 }
 
-/* line 183, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .http-method-badge {
   border: 1px solid white;
   border-radius: 5px;
@@ -4167,62 +4149,62 @@ h5 {
   font-weight: bold;
   font-family: monospace;
 }
-/* line 190, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .http-method-badge.get {
   color: #2baf3b;
   border-color: #2baf3b;
 }
-/* line 195, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .http-method-badge.post {
   color: #1E8BC3;
   border-color: #1E8BC3;
 }
-/* line 200, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .http-method-badge.put {
   color: #947CB0;
   border-color: #947CB0;
 }
-/* line 205, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .http-method-badge.patch {
   color: #E87E04;
   border-color: #E87E04;
 }
-/* line 210, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .http-method-badge.delete {
   color: #D91E18;
   border-color: #D91E18;
 }
 
-/* line 216, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 #toc {
   padding: 1.5em 1em 0 1em;
   background-color: #f2f2f2;
 }
-/* line 220, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 #toc a {
   padding-left: 0 !important;
   color: black;
 }
-/* line 223, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 #toc a:hover {
   color: black;
 }
-/* line 226, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 #toc a:visited {
   color: black;
 }
-/* line 231, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 #toc li:hover > a:first-child {
   color: #777;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 216, ../sass/style.scss */
+  /* line 210, ../sass/style.scss */
   #toc {
     display: block;
   }
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 216, ../sass/style.scss */
+  /* line 210, ../sass/style.scss */
   #toc {
     position: absolute;
     top: 0;
@@ -4230,7 +4212,7 @@ h5 {
   }
 }
 
-/* line 246, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .toc-button {
   position: absolute;
   top: 2em;
@@ -4238,18 +4220,18 @@ h5 {
   z-index: 100;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 246, ../sass/style.scss */
+  /* line 240, ../sass/style.scss */
   .toc-button {
     display: none;
   }
 }
 
-/* line 257, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .toc-group {
   text-transform: uppercase;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .toc-action .title {
   display: block;
   margin-top: .4em;

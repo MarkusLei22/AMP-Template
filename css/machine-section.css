@@ -7,19 +7,19 @@
 /* line 4, ../sass/machine-section.scss */
 .machine-section {
   padding: 0 1.5em;
-  background-color: #1f2227;
+  background-color: #282f3a;
   color: white;
   height: 100vh;
   overflow-y: scroll;
 }
 /* line 11, ../sass/machine-section.scss */
 .machine-section .seperator {
-  border-top: 1px solid #444;
-  margin-top: 3em;
+  border-top: 1px solid #aaa;
+  margin-top: 2em;
 }
 /* line 16, ../sass/machine-section.scss */
 .machine-section .variable-table tr {
-  border-color: #444;
+  border-color: #aaa;
 }
 /* line 20, ../sass/machine-section.scss */
 .machine-section .block-description {
@@ -45,7 +45,7 @@
   display: flex;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #aaa;
 }
 /* line 43, ../sass/machine-section.scss */
 .ms-head .closeMsButton {
@@ -68,7 +68,7 @@
   display: flex;
   margin-bottom: 1.5em;
   padding: 1em 0;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #aaa;
   font-family: monospace;
   font-size: 1.2em;
 }
@@ -168,18 +168,17 @@
 .json {
   font-family: monospace;
   font-size: 1.1em;
-  padding: .3em .5em;
-  background-color: #2a2e35;
+  padding: 0 .5em;
 }
-/* line 168, ../sass/machine-section.scss */
+/* line 167, ../sass/machine-section.scss */
 .json .text {
   color: #b1bdbd;
 }
-/* line 172, ../sass/machine-section.scss */
+/* line 171, ../sass/machine-section.scss */
 .json .key {
   color: #947CB0;
 }
-/* line 176, ../sass/machine-section.scss */
+/* line 175, ../sass/machine-section.scss */
 .json .nr {
   color: #F7CA18;
 }
