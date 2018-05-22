@@ -4193,6 +4193,9 @@ h5 {
 #toc a:visited {
   color: black;
 }
+#toc ul .group-li{
+    border-top: 1px solid #aaa;
+}
 /* line 225, ../sass/style.scss */
 #toc li:hover > a:first-child {
   color: #777;
