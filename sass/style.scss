@@ -22,7 +22,6 @@ h2 {
 
 h3 {
   font-size: map-get($font-size, h3);
-  text-transform: capitalize;
   margin-bottom: 0;
   color: map-get($colors, middle-blue);
 }
@@ -210,6 +209,8 @@ h5 {
 #toc {
   padding: 1.5em 1em 0 1em;
   background-color: #f2f2f2;
+  overflow-y: scroll;
+  height: 100vh;
 
   a {
     padding-left: 0!important;

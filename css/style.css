@@ -3989,95 +3989,94 @@ h2 {
 /* line 23, ../sass/style.scss */
 h3 {
   font-size: 1.75em;
-  text-transform: capitalize;
   margin-bottom: 0;
   color: #0c658c;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 h4 {
   font-size: 1em;
   margin-bottom: 0;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 h5 {
   font-size: 1em;
   margin-bottom: 0;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 #human-section {
   height: 100vh;
   overflow-y: scroll;
 }
-/* line 45, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 #human-section .block-description {
   color: #666;
 }
 @media screen and (max-width: 74.9375em) {
-  /* line 41, ../sass/style.scss */
+  /* line 40, ../sass/style.scss */
   #human-section {
     padding-right: 1.5em;
   }
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 41, ../sass/style.scss */
+  /* line 40, ../sass/style.scss */
   #human-section {
     padding-left: 1.5em;
   }
 }
 
-/* line 58, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .block-description {
   margin-top: .5em;
 }
 
-/* line 64, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .group .content {
   padding-left: 1em;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .ressource {
   margin-bottom: 5em;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .attributes .variable-table .name {
   vertical-align: top;
 }
-/* line 78, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .attributes .variable-table .description {
   display: block;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .variable-table tbody {
   border: none;
 }
-/* line 90, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .variable-table tr {
   padding-top: .5em;
   border-color: #eee;
 }
-/* line 95, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .variable-table .name {
   font-family: monospace;
   font-size: 1.1em;
   font-weight: bold;
 }
-/* line 101, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .variable-table .datatype {
   font-family: monospace;
   font-size: 1.1em;
   vertical-align: top;
 }
-/* line 107, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .variable-table .default-value {
   font-family: monospace;
 }
-/* line 111, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .variable-table .required,
 .variable-table .optional {
   border: 1px solid white;
@@ -4085,55 +4084,55 @@ h5 {
   padding: .3em .5em;
   font-family: monospace;
 }
-/* line 119, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .variable-table .required {
   border-color: #D91E18;
   color: #D91E18;
 }
-/* line 124, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .variable-table .optional {
   border-color: #95A5A6;
   color: #95A5A6;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .action {
   height: auto;
   border: 1px solid #fff;
   background-color: #f2f2f2;
   display: flex;
 }
-/* line 139, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .action:hover {
   background-color: #eee;
   cursor: pointer;
 }
-/* line 144, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .action .http-method-flag {
   display: block;
   width: 8px;
 }
-/* line 148, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .action .http-method-flag.get {
   background-color: #2baf3b;
 }
-/* line 152, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .action .http-method-flag.post {
   background-color: #1E8BC3;
 }
-/* line 156, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .action .http-method-flag.put {
   background-color: #947CB0;
 }
-/* line 160, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .action .http-method-flag.patch {
   background-color: #E87E04;
 }
-/* line 164, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .action .http-method-flag.delete {
   background-color: #D91E18;
 }
-/* line 169, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .action .action-name {
   display: block;
   margin: .3em 0 .3em 1em;
@@ -4141,7 +4140,7 @@ h5 {
   font-size: 1.4em;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .http-method-badge {
   border: 1px solid white;
   border-radius: 5px;
@@ -4149,65 +4148,64 @@ h5 {
   font-weight: bold;
   font-family: monospace;
 }
-/* line 184, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .http-method-badge.get {
   color: #2baf3b;
   border-color: #2baf3b;
 }
-/* line 189, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .http-method-badge.post {
   color: #1E8BC3;
   border-color: #1E8BC3;
 }
-/* line 194, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .http-method-badge.put {
   color: #947CB0;
   border-color: #947CB0;
 }
-/* line 199, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .http-method-badge.patch {
   color: #E87E04;
   border-color: #E87E04;
 }
-/* line 204, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .http-method-badge.delete {
   color: #D91E18;
   border-color: #D91E18;
 }
 
-/* line 210, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 #toc {
   padding: 1.5em 1em 0 1em;
   background-color: #f2f2f2;
+  overflow-y: scroll;
+  height: 100vh;
 }
-/* line 214, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 #toc a {
   padding-left: 0 !important;
   color: black;
 }
-/* line 217, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 #toc a:hover {
   color: black;
 }
-/* line 220, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 #toc a:visited {
   color: black;
 }
-#toc ul .group-li{
-    border-top: 1px solid #aaa;
-}
-/* line 225, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 #toc li:hover > a:first-child {
   color: #777;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 210, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   #toc {
     display: block;
   }
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 210, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   #toc {
     position: absolute;
     top: 0;
@@ -4215,7 +4213,7 @@ h5 {
   }
 }
 
-/* line 240, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .toc-button {
   position: absolute;
   top: 2em;
@@ -4223,18 +4221,18 @@ h5 {
   z-index: 100;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 240, ../sass/style.scss */
+  /* line 241, ../sass/style.scss */
   .toc-button {
     display: none;
   }
 }
 
-/* line 251, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .toc-group {
   text-transform: uppercase;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .toc-action .title {
   display: block;
   margin-top: .4em;
