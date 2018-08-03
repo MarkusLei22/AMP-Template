@@ -4,6 +4,7 @@
       <meta charset="utf-8" />
       <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
       <link href="css/style.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" href="css/dracula.css">
   </head>
   <body>
     <button class="toc-button" onclick="toggleToc()">&#9776;</button>
@@ -249,7 +250,7 @@
 
           <div class="message-body">
             <h5>Body
-                <button id="toggle-body-btn-{{id}}" onClick="toggleBodyRepresentation({{id}})" style="margin-left: 80%; color: white; padding: 2px;">Change to schema</button>
+                <button id="toggle-body-btn-{{id}}" onClick="toggleBodyRepresentation({{id}})" style="margin-left: 70%; color: white; padding: 2px;">Change to schema</button>
             </h5>
 
 <pre id="json-example-{{id}}" class="json">
@@ -272,9 +273,14 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/foundation.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.12.0/build/highlight.min.js"></script>
+
     <script>
     $(document).ready(function() {
       $(document).foundation();
+      $('pre').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
     });
     </script>
 
