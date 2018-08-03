@@ -248,9 +248,15 @@
           </div>
 
           <div class="message-body">
-            <h5>Body</h5>
-<pre class="json">
+            <h5>Body
+                <button id="toggle-body-btn-{{id}}" onClick="toggleBodyRepresentation({{id}})" style="margin-left: 80%; color: white; padding: 2px;">Change to schema</button>
+            </h5>
+
+<pre id="json-example-{{id}}" class="json">
 {{jsonExample}}
+</pre>
+<pre id="json-schema-{{id}}" class="json" style="display: none;">
+{{jsonSchema}}
 </pre>
           </div>
         </div>
@@ -273,6 +279,7 @@
     </script>
 
     <script>
+
       function closeMs(actionId) {
         document.getElementById("ms-action-" + actionId).classList.add("hide");
       }
@@ -285,6 +292,24 @@
 
       function toggleToc() {
         document.getElementById("toc").classList.toggle("hide");
+      }
+
+      function toggleBodyRepresentation(id){
+          if($("#toggle-body-btn-" + id).text() == "Change to schema"){
+            $("#toggle-body-btn-" + id).text("Change to example");
+            $("#json-example-" + id).css("display", "none");
+            $("#json-schema-" + id).css("display", "block");
+          }
+          else{
+            $("#toggle-body-btn-" + id).text("Change to schema");
+            $("#json-example-" + id).css("display", "block");
+            $("#json-schema-" + id).css("display", "none");
+          }
+      }
+
+      function initialSchemaToggle(id){
+          console.log(id);
+        document.getElementById("json-schema-" + id).classList.toggle("hide");
       }
     </script>
 
