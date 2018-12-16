@@ -214,9 +214,15 @@
 
           <p class="block-description">{{description}}</p>
           <div class="message-body">
-            <h5>Body</h5>
-<pre class="json">
+            <h5>Body
+                <button id="toggle-body-btn-{{id}}" onClick="toggleBodyRepresentation({{id}})" style="margin-left: 70%; color: white; padding: 2px;">Change to schema</button>
+            </h5>
+
+<pre id="json-example-{{id}}" class="json">
 {{jsonExample}}
+</pre>
+<pre id="json-schema-{{id}}" class="json" style="display: none;">
+{{jsonSchema}}
 </pre>
           </div>
         </div>
