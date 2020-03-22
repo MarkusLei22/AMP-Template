@@ -1,6 +1,6 @@
 /**
  * Foundation for Sites by ZURB
- * Version 6.4.4-rc1
+ * Version 6.6.1
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
@@ -29,7 +29,7 @@
 .machine-section h3 {
   color: white;
 }
-@media screen and (max-width: 63.9375em) {
+@media print, screen and (max-width: 63.99875em) {
   /* line 4, ../sass/machine-section.scss */
   .machine-section {
     position: absolute;

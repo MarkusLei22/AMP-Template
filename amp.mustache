@@ -56,9 +56,9 @@
           <div class="content">
             {{#resources}}
             <div class="ressource" id="ressource-{{id}}">
-              <h3>{{title}} - {{url}}</h3>      <!-- TODO change style of URL -->
+              <h3>{{title}}</h3>      <!-- TODO change style of URL -->
               <p class="block-description">{{description}}</p>
-
+<!--
               <div class="attributes">
                 <h4>Attributes</h4>
                 <table class="unstriped variable-table">
@@ -77,15 +77,17 @@
                       </td>
                     </tr>
                     {{/attributes}}
-                  </tbody>
+                </tbody>
                 </table>
-              </div>
 
+              </div>
+-->
               <div class="actions">
                 {{#actions}}
                 <div class="action" id="action-{{id}}" onclick="openMs({{id}})">
                   <div class="http-method-flag {{httpMethodClass}}"></div>
-                  <span class="action-name">{{title}}</span>
+                  <span class="action-name">{{httpMethodClass}}</span>
+                  <span class="action-url">{{url}}</span>
                 </div>
                 {{/actions}}
               </div> <!-- actions -->
